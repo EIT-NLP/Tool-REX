@@ -34,13 +34,13 @@ Tool-DE achieves new state-of-the-art results on both ToolRet and its own benchm
 
 ### Datasets 
 **Benchmark**
-- [**Tool-DE-Tools**](https://huggingface.co/datasets/Lux1997/Tool-DE-Tools)
-- [**Tool-DE-Queries**](https://huggingface.co/datasets/Lux1997/Tool-DE-Queries)
+- [Tool-DE-Tools](https://huggingface.co/datasets/Lux1997/Tool-DE-Tools)
+- [Tool-DE-Queries](https://huggingface.co/datasets/Lux1997/Tool-DE-Queries)
 
 **Training Datasets**
 
-- [**Tool-DE_train_retriever_50k**](https://huggingface.co/datasets/Lux1997/Tool-DE_train_retriever_50k)
-- [**Tool-DE_train_reranker_200k**](https://huggingface.co/datasets/Lux1997/Tool-DE_train_reranker_200k)
+- [Tool-DE_train_retriever_50k](https://huggingface.co/datasets/Lux1997/Tool-DE_train_retriever_50k)
+- [Tool-DE_train_reranker_200k](https://huggingface.co/datasets/Lux1997/Tool-DE_train_reranker_200k)
 
 ### Models 
 **Tool-Embed**
