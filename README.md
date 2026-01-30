@@ -34,22 +34,22 @@ Tool-DE achieves new state-of-the-art results on both ToolRet and its own benchm
 
 ### Datasets 
 **Benchmark**
-- [**Lux1997/Tool-DE-Tools**](https://huggingface.co/datasets/Lux1997/Tool-DE-Tools)
-- **Tool-DE-Queries**: [Lux1997/Tool-DE-Queries](https://huggingface.co/datasets/Lux1997/Tool-DE-Queries)
+- [**Tool-DE-Tools**](https://huggingface.co/datasets/Lux1997/Tool-DE-Tools)
+- [**Tool-DE-Queries**](https://huggingface.co/datasets/Lux1997/Tool-DE-Queries)
 
 **Training Datasets**
 
-- **Tool-DE_train_retriever_50k**: [Lux1997/Tool-DE_train_retriever_50k](https://huggingface.co/datasets/Lux1997/Tool-DE_train_retriever_50k)
-- **Tool-DE_train_reranker_200k**: [Lux1997/Tool-DE_train_reranker_200k](https://huggingface.co/datasets/Lux1997/Tool-DE_train_reranker_200k)
+- [**Tool-DE_train_retriever_50k**](https://huggingface.co/datasets/Lux1997/Tool-DE_train_retriever_50k)
+- [**Tool-DE_train_reranker_200k**](https://huggingface.co/datasets/Lux1997/Tool-DE_train_reranker_200k)
 
 ### Models 
 **Tool-Embed**
-- [Lux1997/Tool-Embed-0.6B](https://huggingface.co/Lux1997/Tool-Embed-0.6B)
-- [Lux1997/Tool-Embed-4B](https://huggingface.co/Lux1997/Tool-Embed-4B)
+- [Tool-Embed-0.6B](https://huggingface.co/Lux1997/Tool-Embed-0.6B)
+- [Tool-Embed-4B](https://huggingface.co/Lux1997/Tool-Embed-4B)
 
 **Tool-Rank**
-- [Lux1997/Tool-Rank-4B](https://huggingface.co/Lux1997/Tool-Rank-4B)
-- [Lux1997/Tool-Rank-8B](https://huggingface.co/Lux1997/Tool-Rank-8B)
+- [Tool-Rank-4B](https://huggingface.co/Lux1997/Tool-Rank-4B)
+- [Tool-Rank-8B](https://huggingface.co/Lux1997/Tool-Rank-8B)
 
 ---
 
