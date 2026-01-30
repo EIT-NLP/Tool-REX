@@ -47,7 +47,7 @@ Tool-DE achieves new state-of-the-art results on both ToolRet and its own benchm
 
 ---
 
-## Environment
+## 🧩 Environment
 Tested with Python 3.10+ and CUDA-enabled GPUs for large models.
 
 Install dependencies:
@@ -56,7 +56,7 @@ conda env create -f requirements.yml
 conda activate tool-de
 ```
 
-## Quickstart
+## 🚀 Quickstart
 All examples assume you are in the repository root.
 
 ### 1) Retrieval (dense retriever)
@@ -104,7 +104,7 @@ output, results = eval_toolrank(
 )
 ```
 
-## How to switch models
+## 🔁 How to switch models
 You can change models in two ways:
 
 1) Pass a different `model_name` at runtime:
@@ -118,11 +118,11 @@ eval_toolrank(model_name="Lux1997/Tool-Rank-8B", ...)
 - `_RERANKING_MODEL`
 - `_QUERY_REPO` / `_TOOL_REPO`
 
-## Notes
+## 📝 Notes
 - Reranking requires retrieval outputs first. Provide the retrieval output path via `retrieval_results_path`.
 - Datasets are loaded from Hugging Face via the dataset IDs in `tool_de/config.py`.
 
-## Citation
+## 📚 Citation
 ```bibtex
 @misc{lu2025tool-de,
       title={Tools are under-documented: Simple Document Expansion Boosts Tool Retrieval},
@@ -134,3 +134,8 @@ eval_toolrank(model_name="Lux1997/Tool-Rank-8B", ...)
       url={https://arxiv.org/abs/2510.22670},
 }
 ```
+
+## Credits
+
+Part of the code is adapted from [tool-retrieval-benchmark](https://github.com/mangopy/tool-retrieval-benchmark).
+
