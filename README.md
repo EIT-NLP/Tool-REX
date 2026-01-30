@@ -1,41 +1,51 @@
 # Tool-DE
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2510.22670"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg"></a>
-  <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-green.svg"></a>
-  <a href="https://huggingface.co/collections/Lux1997/tool-de"><img src="https://img.shields.io/badge/Models-Coming%20Soon-blue.svg"></a>
+  <a href="https://arxiv.org/abs/2510.22670"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper"></a>
+  <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-green.svg" alt="License"></a>
+  <a href="https://huggingface.co/collections/Lux1997/tool-de"><img src="https://img.shields.io/badge/Models-Hugging%20Face-blue.svg" alt="Models"></a>
 </p>
 
+Tool-DE is a benchmark and framework that enhances tool retrieval by systematically enriching tool documentation using Large Language Models (LLMs).
+
+---
+
 ## 📖 Introduction
+
 Tool-DE is a new benchmark and framework that enhances tool retrieval by systematically enriching tool documentation using Large Language Models (LLMs).
 Existing benchmarks (e.g., ToolBench, ToolACE, ToolRet) reveal a key bottleneck — incomplete and inconsistent tool documentation hinders retrieval quality.
 
 <div align="center">
-  <img src="assets/heatmap.png" alt="Visual Layer Analysis" width="80%">
-  <p><em> Figure 1: Incomplete field coverage across the 35 tool-use datasets. </em></p>
+  <img src="assets/heatmap.png" alt="Incomplete field coverage across tool-use datasets" width="80%">
+  <p><em>Figure 1: Incomplete field coverage across the 35 tool-use datasets.</em></p>
 </div>
 
-To address this, Tool-DE introduces an LLM-driven document expansion pipeline that generates structured fields such as function_description, when_to_use, limitations, and tags.
+To address this, Tool-DE introduces an LLM-driven document expansion pipeline that generates structured fields such as `function_description`, `when_to_use`, `limitations`, and `tags`.
 We further release two models built upon this data:
-- Tool-Embed – a dense retriever trained on 50k expanded documents
-- Tool-Rank – an LLM-based reranker trained on 200k pairs
+
+- **Tool-Embed** – a dense retriever trained on **50k** expanded documents  
+- **Tool-Rank** – an LLM-based reranker trained on **200k** pairs  
 
 Tool-DE achieves new state-of-the-art results on both ToolRet and its own benchmark, setting a foundation for data-centric tool retrieval research.
 
-## Resources
-Datasets (Hugging Face):
-```
-https://huggingface.co/datasets/Lux1997/Tool-DE-Tools
-https://huggingface.co/datasets/Lux1997/Tool-DE-Queries
-```
+---
 
-Models (Hugging Face):
-```
-https://huggingface.co/Lux1997/Tool-Embed-0.6B
-https://huggingface.co/Lux1997/Tool-Embed-4B
-https://huggingface.co/Lux1997/Tool-Rank-4B
-https://huggingface.co/Lux1997/Tool-Rank-8B
-```
+## 🔗 Resources
+
+### Datasets (Hugging Face)
+- **Tool-DE-Tools**: [Lux1997/Tool-DE-Tools](https://huggingface.co/datasets/Lux1997/Tool-DE-Tools)
+- **Tool-DE-Queries**: [Lux1997/Tool-DE-Queries](https://huggingface.co/datasets/Lux1997/Tool-DE-Queries)
+
+### Models (Hugging Face)
+**Tool-Embed**
+- [Lux1997/Tool-Embed-0.6B](https://huggingface.co/Lux1997/Tool-Embed-0.6B)
+- [Lux1997/Tool-Embed-4B](https://huggingface.co/Lux1997/Tool-Embed-4B)
+
+**Tool-Rank**
+- [Lux1997/Tool-Rank-4B](https://huggingface.co/Lux1997/Tool-Rank-4B)
+- [Lux1997/Tool-Rank-8B](https://huggingface.co/Lux1997/Tool-Rank-8B)
+
+---
 
 ## Environment
 Tested with Python 3.10+ and CUDA-enabled GPUs for large models.
