@@ -34,7 +34,7 @@ Tool-DE achieves new state-of-the-art results on both ToolRet and its own benchm
 
 ### Datasets 
 **Benchmark**
-- **Tool-DE-Tools**: [Lux1997/Tool-DE-Tools](https://huggingface.co/datasets/Lux1997/Tool-DE-Tools)
+- [**Lux1997/Tool-DE-Tools**](https://huggingface.co/datasets/Lux1997/Tool-DE-Tools)
 - **Tool-DE-Queries**: [Lux1997/Tool-DE-Queries](https://huggingface.co/datasets/Lux1997/Tool-DE-Queries)
 
 **Training Datasets**
