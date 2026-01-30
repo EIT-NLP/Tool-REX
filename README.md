@@ -32,11 +32,15 @@ Tool-DE achieves new state-of-the-art results on both ToolRet and its own benchm
 
 ## 🔗 Resources
 
-### Datasets (Hugging Face)
+### Datasets 
+**Benchmark**
 - **Tool-DE-Tools**: [Lux1997/Tool-DE-Tools](https://huggingface.co/datasets/Lux1997/Tool-DE-Tools)
 - **Tool-DE-Queries**: [Lux1997/Tool-DE-Queries](https://huggingface.co/datasets/Lux1997/Tool-DE-Queries)
+**Training Datasets**
+- **Tool-DE_train_retriever_50k**: [Lux1997/Tool-DE_train_retriever_50k](https://huggingface.co/datasets/Lux1997/Tool-DE_train_retriever_50k)
+- **Tool-DE_train_reranker_200k**: [Lux1997/Tool-DE_train_reranker_200k](https://huggingface.co/datasets/Lux1997/Tool-DE_train_reranker_200k)
 
-### Models (Hugging Face)
+### Models 
 **Tool-Embed**
 - [Lux1997/Tool-Embed-0.6B](https://huggingface.co/Lux1997/Tool-Embed-0.6B)
 - [Lux1997/Tool-Embed-4B](https://huggingface.co/Lux1997/Tool-Embed-4B)
