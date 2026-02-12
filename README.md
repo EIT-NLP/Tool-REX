@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2510.22670"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper"></a>
   <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-green.svg" alt="License"></a>
-  <a href="https://huggingface.co/collections/Lux1997/tool-de"><img src="https://img.shields.io/badge/Models-Hugging%20Face-blue.svg" alt="Models"></a>
+  <a href="https://huggingface.co/collections/Lux1997/tool-rex"><img src="https://img.shields.io/badge/Models-Hugging%20Face-blue.svg" alt="Models"></a>
 </p>
 
 Tool-REX (Tool Retrieval with EXpansion) is a benchmark and framework that enhances tool retrieval by systematically enriching tool documentation using Large Language Models (LLMs).
