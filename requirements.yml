@@ -1,4 +1,4 @@
-name: tool-de
+name: tool-rex
 channels:
   - pytorch
   - defaults
