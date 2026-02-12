@@ -34,13 +34,13 @@ Tool-REX achieves new state-of-the-art results on both ToolRet and its own bench
 
 ### Datasets 
 **Benchmark**
-- [Tool-REX-Tools](https://huggingface.co/datasets/Lux1997/Tool-DE-Tools)
-- [Tool-REX-Queries](https://huggingface.co/datasets/Lux1997/Tool-DE-Queries)
+- [Tool-REX-Tools](https://huggingface.co/datasets/Lux1997/Tool-REX-Tools)
+- [Tool-REX-Queries](https://huggingface.co/datasets/Lux1997/Tool-REX-Queries)
 
 **Training Datasets**
 
-- [Tool-REX_train_retriever_50k](https://huggingface.co/datasets/Lux1997/Tool-DE_train_retriever_50k)
-- [Tool-REX_train_reranker_200k](https://huggingface.co/datasets/Lux1997/Tool-DE_train_reranker_200k)
+- [Tool-REX_train_retriever_50k](https://huggingface.co/datasets/Lux1997/Tool-REX_train_retriever_50k)
+- [Tool-REX_train_reranker_200k](https://huggingface.co/datasets/Lux1997/Tool-REX_train_reranker_200k)
 
 ### Models 
 **Tool-Embed**
