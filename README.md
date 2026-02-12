@@ -34,13 +34,13 @@ Tool-REX achieves new state-of-the-art results on both ToolRet and its own bench
 
 ### Datasets 
 **Benchmark**
-- [Tool-DE-Tools](https://huggingface.co/datasets/Lux1997/Tool-DE-Tools)
-- [Tool-DE-Queries](https://huggingface.co/datasets/Lux1997/Tool-DE-Queries)
+- [Tool-REX-Tools](https://huggingface.co/datasets/Lux1997/Tool-DE-Tools)
+- [Tool-REX-Queries](https://huggingface.co/datasets/Lux1997/Tool-DE-Queries)
 
 **Training Datasets**
 
-- [Tool-DE_train_retriever_50k](https://huggingface.co/datasets/Lux1997/Tool-DE_train_retriever_50k)
-- [Tool-DE_train_reranker_200k](https://huggingface.co/datasets/Lux1997/Tool-DE_train_reranker_200k)
+- [Tool-REX_train_retriever_50k](https://huggingface.co/datasets/Lux1997/Tool-DE_train_retriever_50k)
+- [Tool-REX_train_reranker_200k](https://huggingface.co/datasets/Lux1997/Tool-DE_train_reranker_200k)
 
 ### Models 
 **Tool-Embed**
@@ -59,7 +59,7 @@ Tested with Python 3.10+ and CUDA-enabled GPUs for large models.
 Install dependencies:
 ```bash
 conda env create -f requirements.yml
-conda activate tool-de
+conda activate tool-rex
 ```
 
 ## 🚀 Quickstart
@@ -130,7 +130,7 @@ eval_toolrank(model_name="Lux1997/Tool-Rank-8B", ...)
 
 ## 📚 Citation
 ```bibtex
-@misc{lu2025tool-de,
+@misc{lu2025tool-rex,
       title={Tools are under-documented: Simple Document Expansion Boosts Tool Retrieval},
       author={Xuan Lu and Haohang Huang and Rui Meng and Yaohui Jin and Wenjun Zeng and Xiaoyu Shen},
       year={2025},
