@@ -8,6 +8,8 @@
 
 Tool-REX (Tool Retrieval with EXpansion) is a benchmark and framework that enhances tool retrieval by systematically enriching tool documentation using Large Language Models (LLMs).
 
+> **Note**: **Tool-REX** was previously known as **Tool-DE** (as referred to in our initial research). We have rebranded the project to **Tool-REX** (Tool Retrieval with EXpansion) to better reflect its core mechanism and framework capabilities.
+
 ---
 
 ## 📖 Introduction
