@@ -1,4 +1,4 @@
-# Tool-REX: Tools are Under-documented: Simple Document Expansion Boosts Tool Retrieval (ICLR 2026)
+# Tools are Under-documented: Simple Document Expansion Boosts Tool Retrieval (ICLR 2026)
 
 <p align="center">
   <a href="https://arxiv.org/abs/2510.22670"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper"></a>
@@ -9,8 +9,6 @@
 Tool-REX (Tool Retrieval with EXpansion) is a benchmark and framework that enhances tool retrieval by systematically enriching tool documentation using Large Language Models (LLMs).
 
 > **Note**: **Tool-REX** was previously known as **Tool-DE** (as referred to in our initial research). We have rebranded the project to **Tool-REX** (Tool Retrieval with EXpansion) to better reflect its core mechanism and framework capabilities.
-
----
 
 ## 📖 Introduction
 
@@ -30,7 +28,6 @@ We further release two models built upon this data:
 
 Tool-REX achieves new state-of-the-art results on both ToolRet and its own benchmark, setting a foundation for data-centric tool retrieval research.
 
----
 
 ## 🔗 Resources
 
@@ -132,14 +129,13 @@ eval_toolrank(model_name="Lux1997/Tool-Rank-8B", ...)
 
 ## 📚 Citation
 ```bibtex
-@misc{lu2025tool-rex,
-      title={Tools are under-documented: Simple Document Expansion Boosts Tool Retrieval},
-      author={Xuan Lu and Haohang Huang and Rui Meng and Yaohui Jin and Wenjun Zeng and Xiaoyu Shen},
-      year={2025},
-      eprint={2510.22670},
-      archivePrefix={arXiv},
-      primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2510.22670},
+@inproceedings{
+lu2026tools,
+title={Tools are under-documented: Simple Document Expansion Boosts Tool Retrieval},
+author={Xuan Lu and Haohang Huang and Rui Meng and Yaohui Jin and Wenjun Zeng and Xiaoyu Shen},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=g9D9MgG7iW}
 }
 ```
 
